@@ -1,0 +1,49 @@
+
+#flags-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin: 20px;
+}
+.country{
+    width:150px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    transition: transform 0.2s;
+}
+.country:hover{
+    transform: scale(1.05);
+}
+.country img{
+    width: 100%;
+    height: 88px;
+    object-fit: cover;
+}
+.country p{
+    font-size: 15px;
+    text-align: center;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.header{
+    padding: 2px;
+}
+.header nav{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.dark.mode-btn{
+    cursor: pointer;
+    background: transparent;
+    padding: 3rem;
+    font-size: 2px;
+    
+}
