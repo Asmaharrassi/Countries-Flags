@@ -27,4 +27,5 @@ catch(error){
     console.error('Error fetching flags', error)
 }
 }
+
 fetchCountries()
